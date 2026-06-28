@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sroeunchamroeunphal Huon — Data and AI</title>
+  <meta name="description" content="Portfolio of Sroeunchamroeunphal Huon, a computer science student focused on data science, machine learning, and genomics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- progress bar fills as you scroll -->
+  <div class="progress" id="progress"></div>
+
+  <header class="nav" id="nav">
+    <a href="#top" class="brand">SH<span>.</span></a>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#school">School</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- SUMMARY -->
+    <section class="hero reveal" id="about">
+      <div class="hero_text">
+        <p class="eyebrow">Data and AI</p>
+        <h1>
+          Hi, I am <span class="name">Phal Huon</span>.
+        </h1>
+        <p class="lede">
+          I am a computer science student who turns messy, large scale data into
+          clear answers. My work spans genomics pipelines, machine learning for
+          patient outcomes, and interactive tools that help people read complex
+          data at a glance. I care about accuracy, speed, and making technical
+          work understandable to anyone.
+        </p>
+        <div class="hero_actions">
+          <a class="btn primary" href="#experience">View work</a>
+          <a class="btn ghost" href="mailto:phalshuon@gmail.com">Get in touch</a>
+        </div>
+        <ul class="social">
+          <li><span class="social_label">GitHub</span><a href="https://github.com/PhalHuon" target="_blank" rel="noopener">github.com/PhalHuon</a></li>
+          <li><span class="social_label">LinkedIn</span><a href="https://linkedin.com/in/PhalHuon" target="_blank" rel="noopener">linkedin.com/in/PhalHuon</a></li>
+          <li><span class="social_label">Email</span><a href="mailto:phalshuon@gmail.com">phalshuon@gmail.com</a></li>
+        </ul>
+      </div>
+      <img class="avatar" src="profile.jpeg" alt="Portrait of Phal Huon" />
+    </section>
+
+    <section class="block reveal toolkit_section">
+      <div class="toolkit">
+        <span class="toolkit_label">What I work with</span>
+        <ul class="tags">
+          <li>Python</li>
+          <li>SQL</li>
+          <li>C++</li>
+          <li>pandas</li>
+          <li>NumPy</li>
+          <li>scikit learn</li>
+          <li>Matplotlib</li>
+          <li>Django</li>
+          <li>Docker</li>
+          <li>Tableau</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- SCHOOL -->
+    <section class="block reveal" id="school">
+      <div class="block_head">
+        <span class="num">01</span>
+        <h2>School</h2>
+      </div>
+
+      <div class="card school_card">
+        <div class="school_top">
+          <h3>University of Massachusetts Lowell</h3>
+          <span class="when">Expected Dec 2027</span>
+        </div>
+        <p class="role">Bachelor of Science in Computer Science</p>
+        <p class="muted">Lowell, Massachusetts &middot; GPA 3.5</p>
+        <ul class="tags">
+          <li>Machine Learning</li>
+          <li>Data Structures</li>
+          <li>Statistics</li>
+          <li>Databases</li>
+        </ul>
+      </div>
+
+      <div class="card school_card">
+        <div class="school_top">
+          <h3>Bunker Hill Community College</h3>
+          <span class="when">Sep 2023 to Dec 2024</span>
+        </div>
+        <p class="role">Associate of Science in Data Analytics</p>
+        <p class="muted">Charlestown, Massachusetts &middot; GPA 3.9</p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="block reveal" id="experience">
+      <div class="block_head">
+        <span class="num">02</span>
+        <h2>Experience</h2>
+      </div>
+
+      <ol class="timeline">
+        <li class="card exp">
+          <div class="exp_top">
+            <h3>Data Science Intern</h3>
+            <span class="when">May 2026 to Aug 2026</span>
+          </div>
+          <p class="role">Tevard Biosciences &middot; Boston, MA</p>
+          <ul class="bullets">
+            <li>Built an interactive web platform that visualizes gene level protein domain and variant data from ClinVar, enabling faster interpretation of clinically relevant mutations.</li>
+            <li>Developed a pipeline to parse and classify variants (missense, nonsense, synonymous) from HGVS notation, improving data accuracy for downstream analysis.</li>
+            <li>Engineered interactive visualizations such as KDE density plots and domain diagrams to surface pathogenicity patterns across protein regions.</li>
+            <li>Collaborated with the development team to scope features and fold feedback into iterative releases.</li>
+          </ul>
+        </li>
+
+        <li class="card exp">
+          <div class="exp_top">
+            <h3>Data Science Intern</h3>
+            <span class="when">Sep 2025 to May 2026</span>
+          </div>
+          <p class="role">University of Massachusetts Lowell &middot; Lowell, MA</p>
+          <ul class="bullets">
+            <li>Wrote Python scripts to automate genomic data cleanup, cutting processing time from hours to minutes.</li>
+            <li>Built models to predict patient outcomes from messy health records.</li>
+            <li>Designed pipelines that process more than 200GB of raw sequencing files automatically.</li>
+            <li>Presented findings at the UML Research Symposium and learned to explain technical work to broad audiences.</li>
+          </ul>
+        </li>
+
+        <li class="card exp">
+          <div class="exp_top">
+            <h3>Quality Assurance Intern</h3>
+            <span class="when">Sep 2025 to Dec 2025</span>
+          </div>
+          <p class="role">TwinRayJ Studios &middot; Dekalb, IL</p>
+          <ul class="bullets">
+            <li>Tested iOS and Android builds and caught more than 30 issues before players saw them.</li>
+            <li>Automated 5 test cases with Robot Framework to speed up a slow manual process.</li>
+            <li>Wrote clear bug reports with reproduction steps so developers could fix problems faster.</li>
+            <li>Cut post release bugs by 30 percent, reduced testing time by 25 percent, and proposed 8 design changes with 3 shipped.</li>
+          </ul>
+        </li>
+
+        <li class="card exp">
+          <div class="exp_top">
+            <h3>Math Tutor</h3>
+            <span class="when">Jan 2023 to Dec 2024</span>
+          </div>
+          <p class="role">Bunker Hill Community College &middot; Charlestown, MA</p>
+          <ul class="bullets">
+            <li>Broke calculus and statistics problems into simple steps students could follow.</li>
+            <li>Met with students one on one to find gaps in understanding and adapt explanations to each learning style.</li>
+            <li>Helped students raise exam scores and build confidence in math.</li>
+          </ul>
+        </li>
+      </ol>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="block reveal" id="projects">
+      <div class="block_head">
+        <span class="num">03</span>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="grid">
+        <article class="card project" tabindex="0" data-href="https://github.com/PhalHuon/file-organizer">
+          <div class="project_top">
+            <h3>File Organizer</h3>
+            <span class="arrow">&rarr;</span>
+          </div>
+          <p class="muted">
+            A C++ command line tool that scans and sorts more than 1,000 files
+            automatically, backed by a MySQL database that tracks file origins
+            and movements. It cut manual organization time in half, and an undo
+            feature is on the way so users can restore files when needed.
+          </p>
+          <ul class="tags">
+            <li>C++</li>
+            <li>MySQL</li>
+            <li>Terminal CLI</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <p>Built by Sroeunchamroeunphal Huon &middot; <span id="year"></span></p>
+    <a href="#top" class="to_top">Back to top &uarr;</a>
+  </footer>
+
+  <!-- floating back to top button, shown after you scroll down -->
+  <button class="top_btn" id="topBtn" aria-label="Back to top">&uarr;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
