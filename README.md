@@ -1,13 +1,5 @@
 # Portfolio
 
-A single page personal portfolio for Sroeunchamroeunphal Huon, focused on data and AI. Built with plain HTML, CSS, and a little JavaScript.
-
-## Sections
-- Summary
-- School
-- Experience
-- Projects
-
 ## Run it locally
 Open `index.html` in a browser, or serve the folder:
 
